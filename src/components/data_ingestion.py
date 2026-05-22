@@ -51,6 +51,6 @@ if __name__=="__main__":
     train_arr,test_arr,_=data_transformation.initiate_data_transformation(train_data,test_data)
 
     obj2=ModelTrainer()
-    obj2.initiate_model_trainer(train_arr,test_arr)
+    print(obj2.initiate_model_trainer(train_arr,test_arr))
 
     
